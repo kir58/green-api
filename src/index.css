@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-tg-accent: #3390ec;
+  --color-tg-bubble: #eeffde;
+  --color-tg-wallpaper: #c5ddeb;
+  --color-tg-muted: #707579;
+  --color-tg-line: #e6e6e6;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}

@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "intl": "ru-RU",
+    "htmlLang": "ru"
+  },
+  "app": {
+    "title": "Telegram"
+  },
+  "auth": {
+    "subtitle": "Вход через GREEN-API",
+    "apiUrl": "api url",
+    "apiUrlPlaceholder": "https://1103.api.green-api.com",
+    "idInstance": "id instance",
+    "idInstancePlaceholder": "110100001",
+    "apiTokenInstance": "api token instance",
+    "tokenPlaceholder": "Токен инстанса",
+    "showToken": "Показать",
+    "hideToken": "Скрыть",
+    "submit": "Войти",
+    "checking": "Проверка…",
+    "notAuthorized": "Инстанс не авторизован. Привяжите Telegram в кабинете GREEN-API.",
+    "blocked": "Инстанс заблокирован.",
+    "suspended": "На аккаунте временные ограничения. Попробуйте позже.",
+    "starting": "Инстанс запускается. Подождите несколько минут и войдите снова.",
+    "pendingPassword": "Для входа нужен пароль двухфакторной аутентификации Telegram.",
+    "unexpectedState": "Инстанс в состоянии {state}. Войти можно, когда он авторизован.",
+    "apiUrlRequired": "Укажите apiUrl из кабинета GREEN-API",
+    "apiUrlHost": "apiUrl должен быть адресом https://….green-api.com",
+    "idInstanceDigits": "idInstance должен состоять из цифр",
+    "tokenRequired": "Укажите apiTokenInstance"
+  },
+  "inbox": {
+    "webhook": "Уведомления уходят на вебхук {url}. Этот чат их не получает.",
+    "disabled": "Входящие уведомления выключены. Сообщения из Telegram сюда не придут.",
+    "enable": "Получать здесь",
+    "enabling": "Включаем…",
+    "retry": "Повторить",
+    "confirmWebhook": "Уведомления сейчас уходят на {url}. Адрес вебхука будет очищен, и сообщения начнут приходить в этот чат. Продолжить?",
+    "enabled": "Входящие уведомления включены. Ответ из Telegram может прийти не сразу."
+  },
+  "chat": {
+    "title": "Чаты",
+    "logout": "Выйти",
+    "backToList": "К списку чатов",
+    "personal": "личный чат",
+    "pickTitle": "Выберите чат",
+    "pickText": "Создайте чат по номеру телефона слева и отправьте текстовое сообщение.",
+    "empty": "Чатов пока нет. Создайте первый по номеру телефона.",
+    "noMessages": "Нет сообщений",
+    "outgoingPreview": "Вы: {text}"
+  },
+  "newChat": {
+    "label": "Новый чат",
+    "placeholder": "79876543210",
+    "create": "Создать",
+    "searching": "Поиск…"
+  },
+  "composer": {
+    "placeholder": "Сообщение",
+    "send": "Отправить",
+    "tooLong": "Сообщение длиннее 4096 символов"
+  },
+  "message": {
+    "sending": "отправка…",
+    "failed": "Не отправлено",
+    "retry": "Повторить",
+    "interrupted": "Отправка прервана",
+    "unsupported": "Сообщение этого типа здесь не показывается"
+  },
+  "errors": {
+    "rejected": "GREEN-API отклонил запрос. Проверьте apiUrl, idInstance и токен.",
+    "timeout": "Превышено время ожидания ответа GREEN-API",
+    "network": "Не удалось связаться с GREEN-API. Проверьте apiUrl и доступ к интернету.",
+    "requestFailed": "Не удалось выполнить запрос",
+    "unknown": "Неизвестная ошибка",
+    "noMessageId": "GREEN-API не вернул идентификатор сообщения",
+    "loginFirst": "Сначала войдите в GREEN-API",
+    "storage": "Не удалось сохранить чаты в браузере. Место в sessionStorage закончилось.",
+    "chatOpening": "Чат уже создаётся",
+    "invalidPhone": "Введите номер в международном формате, например {phone}",
+    "sessionEnded": "Сессия завершена",
+    "accountNotFound": "Аккаунт Telegram на этом номере не найден"
+  }
+}
